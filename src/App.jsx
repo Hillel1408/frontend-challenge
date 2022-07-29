@@ -6,11 +6,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
     const navItems = [
         {
-            href: '/',
+            href: '/frontend-challenge/',
             name: 'Все котики',
         },
         {
-            href: '/lyubimye-kotiki',
+            href: '/frontend-challenge/lyubimye-kotiki',
             name: 'Любимые котики',
         },
     ];
