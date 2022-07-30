@@ -16,7 +16,7 @@ function App() {
     ];
 
     return (
-        <Router>
+        <Router basename="frontend-challenge">
             <Header navItems={navItems} />
             <Routes>
                 <Route exact path="/" element={<Main />}></Route>
